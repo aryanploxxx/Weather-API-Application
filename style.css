@@ -14,7 +14,7 @@ body {
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-    margin: 100px auto 0;
+    margin: 50px auto ;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -59,6 +59,10 @@ body {
     margin-top: 30px;
 }
 
+.weather {
+    display: none;
+}
+
 .weather h1 {
     font-size: 80px;
     font-weight: 500;
@@ -92,4 +96,12 @@ body {
 .humidity, .wind {
     font-size: 28px;
     margin-top: -6px;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
 }
